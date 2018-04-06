@@ -16,6 +16,6 @@ return 0;
 }
 
 int soma(int num){
-  if (num == 1) return 0;
+  if (num == 1) return 1;
   return num + soma(num-1);
 }
